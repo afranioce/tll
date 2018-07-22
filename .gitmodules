@@ -1,0 +1,7 @@
+[submodule "Service"]
+	path = tll-service
+	url = https://github.com/afranioce/tll-service
+
+[submodule "Webapp"]
+	path = tll-webapp
+	url = https://github.com/afranioce/tll-webapp
