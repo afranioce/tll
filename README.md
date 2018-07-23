@@ -1,10 +1,16 @@
 # Sistema de movimentações
 
-O sistema foi desenvolvido em SPA usando o Angular 5 com material desing 2, a API RestFull foi desenvolvida usando o framework symfony 4.1
+O sistema foi desenvolvido em SPA usando o Angular 5 com material design 2, a API RestFull foi desenvolvida usando o framework symfony 4.1
 
 Este projeto oferece o que for preciso para rodar a aplicação usando o [docker-compose (>=1.7)](https://docs.docker.com/compose/)
 
 > As configurações usadas no docker serve apenas para deploy, para desenvolvimento requer outra configuração
+
+## Baixar
+
+```bash
+$ git clone https://github.com/afranioce/tll.git --recurse-submodules
+```
 
 ## Instalação
 
@@ -36,6 +42,8 @@ Apenas rode `docker-compose up -d`, então:
 
 * Documentação da API: http://localhost:8000/api/doc
 * Aplicação web: http://localhost
+
+> Na tela de login requer qualquer dado, o controle não é feito pela API
 
 ## Contêineres em execução:
 
